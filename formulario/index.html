@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+ <html>
+     <head>
+         <meta charset= "UTF - 8">
+         <title> Mi primer formulario en html </head>
+     </head>
+     <body>
+         <h1>Formulario HTML</h1>
+       <form action = "">
+         <label>Nombre y Apellido:</label>    
+         <input type = "text" name= "Nombre y Apellido"><br>
+         <label>Número de télefono:</label>
+         <input type = "text" name="Número de télefono" pattern="^[55]\d{8}$"><br>
+         <Label>Caricatura Favorita</Label>
+          <select>
+             <option value ="">Hora de Aventura</opction>
+             <option value="">Steven Universe</option>
+             <option value="">Un show más</option>
+             <option value="">Gravity Falls</option>
+           </select>  
+         <label>Correo Electronico:</label>
+         <input type = "email" value= "mail" required><br>
+         <label>Password</label> 
+         <input type = "text" name="Constraseña" pattern=".{6,}" title = 6 o mas caracteres>
+         <button type="submit">Enviar</button>
+
+        </form>    
+     </body>
+ </html>
